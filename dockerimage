@@ -1,0 +1,13 @@
+# Build frontend Docker image
+cd ./Frontend
+docker build -t sandipdas4059/frontend .
+
+# Push frontend Docker image
+docker push sandipdas4059/frontend
+
+# Build backend Docker image
+cd ./Backend
+docker build -t sandipdas4059/backend .
+
+# Push backend Docker image
+docker push sandipdas4059/backend
